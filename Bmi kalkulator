@@ -1,0 +1,67 @@
+#include <iostream>
+#include<iomanip>
+#include<cstdlib>
+
+using namespace std;
+
+float bimer(); //info dla kompilatora ze, bede uzywal funkcji "bimer"(nazwa wlasna...)
+
+
+int main()
+{
+
+
+   bimer();
+
+
+
+    return 0;
+}
+
+float bimer() // Dzieki tej funkcji mozliwy jest zapis liczb w postaci np. "1,77" (za sprawa "float").
+{
+        cout << "::::Kalkulator BMI ZOBOHAUSE wersja 1.0:::::\n\n";
+        float wzrost;
+        cout << "Podaj prosze swoj wzrost(cm):\n";
+        cin >> wzrost;
+        float mnoznik = (wzrost / 100) * (wzrost /100) ;
+        float waga;
+        cout << "Ile warzysz? (kg):\n";
+        cin >> waga;
+        float liczenie_bmi = waga / mnoznik;
+        cout << "Twoje bmi wynosi:\n" << setprecision(4) << liczenie_bmi << endl; //"setprecision(4)" 2 miejsca po przecinku...
+
+        if(liczenie_bmi <= 16) {
+                cout << "Jestes powaznie wyglodzony,musisz jesc wiecej lub skonsultowac sie z lekarzem! \n";
+        }
+        else if(liczenie_bmi < 17) {
+                cout << "Jestes powaznie wychudzony!!! \n";
+        }
+        else if(liczenie_bmi < 18.5) {
+                cout << "Masz spora niedowage! \n";
+        }
+        else if(liczenie_bmi < 25) {
+                cout << "Wynik w normie, mozesz spac spokojnie :) \n";
+        }
+        else if(liczenie_bmi < 35) {
+                cout << "Jestes lekko otyly, przestan jesc fastfoody! \n";
+        }
+        else if(liczenie_bmi < 40) {
+                cout << "Czas zgubic pare kilo :P \n";
+        }
+        else if(liczenie_bmi >= 41) {
+                cout << "Jestes zdecydowanie otyly, czas cos z tym zrobic!! \n";
+        }
+
+
+       cout << endl << ":::::::::zobohause 2019:::::::::\n";
+
+
+
+
+
+
+
+
+
+}
