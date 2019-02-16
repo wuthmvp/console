@@ -1,0 +1,258 @@
+#include <iostream>
+#include <windows.h>
+
+using namespace std;
+
+int main()
+{
+  int nuta1;
+  int nuta2;
+  int nuta3;
+  int nuta4;
+  int nuta5;
+  int nuta6;
+  int nuta7;
+
+  cout << ":::::::::::::::::::::::::::::::::::::::::::::\n" << ":::::Zobohause Music Maker v.1.0 2019::::::::\n" << ":::::Podaj nuty swojej piosenki::::::::::::::\n"  << ":::::" << "Opis cyferek :::::::::::::::::::::::::::\n:::::c - 1:::::::::::::::::::::::::::::::::::\n:::::d - 2:::::::::::::::::::::::::::::::::::\n:::::e - 3:::::::::::::::::::::::::::::::::::\n:::::f - 4:::::::::::::::::::::::::::::::::::\n:::::g - 5:::::::::::::::::::::::::::::::::::\n:::::a - 6:::::::::::::::::::::::::::::::::::\n:::::h - 7:::::::::::::::::::::::::::::::::::\n";
+  cout << ":::::::::::!!!Prosze wpisywac same cyfry!!!::\n" << ":::**przyklad: cyfra jeden to dzwiek c:::::::\n:::::::::::::::::::::::::::::::::::::::::::::\n:::::::::::::::::::::::::::::::::::::::::::::\n" << ":::Zaczynamy(wpisz cyfre i nacisnij enter):::\n:::::::::::::::::::::::::::::::::::::::::::::\n";
+  cout << "::Nutka 1:                                 :::\n";
+  cin >> nuta1;
+  cout << "::Nutka 2:                                 ::\n";
+  cin >> nuta2;
+  cout << "::Nutka 3:                                 ::\n";
+  cin >> nuta3;
+  cout << "::Nutka 4:                                 ::\n";
+  cin >> nuta4;
+  cout << "::Nutka 5:                                 ::\n";
+  cin >> nuta5;
+  cout << "::Nutka 6:                                 ::\n";
+  cin >> nuta6;
+  cout << "::Nutka 7:                                 ::\n";
+  cin >> nuta7;
+  cout << ":::::::::::::::::::::::::::::::::::::::::::::";
+
+    //start pierwszej nuty...
+    if(nuta1==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta1==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta1==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta1==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta1==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta1==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta1==7)
+    {
+    Beep(988,1000);
+    }
+    //start drugiej nuty...
+    if(nuta2==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta2==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta2==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta2==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta2==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta2==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta2==7)
+    {
+    Beep(988,1000);
+    }
+    //start trzeciej nuty...
+    if(nuta3==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta3==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta3==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta3==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta3==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta3==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta3==7)
+    {
+    Beep(988,1000);
+    }
+    //start czwartej nuty...
+    if(nuta4==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta4==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta4==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta4==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta4==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta4==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta4==7)
+    {
+    Beep(988,1000);
+    }
+    //start piatej nuty...
+    if(nuta5==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta5==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta5==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta5==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta5==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta5==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta5==7)
+    {
+    Beep(988,1000);
+    }
+    //start szostej nuty...
+    if(nuta6==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta6==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta6==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta6==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta6==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta6==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta6==7)
+    {
+    Beep(988,1000);
+    }
+    //start siodmej nuty...
+    if(nuta7==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta7==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta7==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta7==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta7==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta7==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta7==7)
+    {
+    Beep(988,1000);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}
