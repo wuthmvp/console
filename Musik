@@ -12,6 +12,18 @@ int main()
   int nuta5;
   int nuta6;
   int nuta7;
+  int nuta8;
+  int nuta9;
+  int nuta10;
+  int nuta11;
+  int nuta12;
+  int nuta13;
+  int nuta14;
+  int nuta15;
+  int nuta16;
+  int nuta17;
+  int nuta18;
+
 
   cout << ":::::::::::::::::::::::::::::::::::::::::::::\n" << ":::::Zobohause Music Maker v.1.0 2019::::::::\n" << ":::::Podaj nuty swojej piosenki::::::::::::::\n"  << ":::::" << "Opis cyferek :::::::::::::::::::::::::::\n:::::c - 1:::::::::::::::::::::::::::::::::::\n:::::d - 2:::::::::::::::::::::::::::::::::::\n:::::e - 3:::::::::::::::::::::::::::::::::::\n:::::f - 4:::::::::::::::::::::::::::::::::::\n:::::g - 5:::::::::::::::::::::::::::::::::::\n:::::a - 6:::::::::::::::::::::::::::::::::::\n:::::h - 7:::::::::::::::::::::::::::::::::::\n";
   cout << ":::::::::::!!!Prosze wpisywac same cyfry!!!::\n" << ":::**przyklad: cyfra jeden to dzwiek c:::::::\n:::::::::::::::::::::::::::::::::::::::::::::\n:::::::::::::::::::::::::::::::::::::::::::::\n" << ":::Zaczynamy(wpisz cyfre i nacisnij enter):::\n:::::::::::::::::::::::::::::::::::::::::::::\n";
@@ -29,6 +41,28 @@ int main()
   cin >> nuta6;
   cout << "::Nutka 7:                                 ::\n";
   cin >> nuta7;
+  cout << "::Nutka 8:                                 ::\n";
+  cin >> nuta8;
+  cout << "::Nutka 9:                                 ::\n";
+  cin >> nuta9;
+  cout << "::Nutka 10:                                 ::\n";
+  cin >> nuta10;
+  cout << "::Nutka 11:                                 ::\n";
+  cin >> nuta11;
+  cout << "::Nutka 12:                                 ::\n";
+  cin >> nuta12;
+  cout << "::Nutka 13:                                 ::\n";
+  cin >> nuta13;
+  cout << "::Nutka 14:                                 ::\n";
+  cin >> nuta14;
+  cout << "::Nutka 15:                                 ::\n";
+  cin >> nuta15;
+  cout << "::Nutka 16:                                 ::\n";
+  cin >> nuta16;
+  cout << "::Nutka 17:                                 ::\n";
+  cin >> nuta17;
+  cout << "::Nutka 18:                                 ::\n";
+  cin >> nuta18;
   cout << ":::::::::::::::::::::::::::::::::::::::::::::";
 
     //start pierwszej nuty...
@@ -234,7 +268,325 @@ int main()
     {
     Beep(988,1000);
     }
-
+     //start osmej nuty...
+    if(nuta8==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta8==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta8==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta8==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta8==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta8==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta8==7)
+    {
+    Beep(988,1000);
+    }
+     //start dziewiatej nuty...
+    if(nuta9==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta9==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta9==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta9==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta9==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta9==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta9==7)
+    {
+    Beep(988,1000);
+    }
+     //start dziesiatej nuty...
+    if(nuta10==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta10==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta10==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta10==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta10==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta10==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta10==7)
+    {
+    Beep(988,1000);
+    }
+     //start jedenastej nuty...
+    if(nuta11==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta11==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta11==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta11==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta11==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta11==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta11==7)
+    {
+    Beep(988,1000);
+    }
+     //start dwunastej nuty...
+    if(nuta12==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta12==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta12==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta12==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta12==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta12==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta12==7)
+    {
+    Beep(988,1000);
+    }
+     //start 13 nuty...
+    if(nuta13==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta13==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta13==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta13==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta13==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta13==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta13==7)
+    {
+    Beep(988,1000);
+    }
+ //start 14 nuty...
+    if(nuta14==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta14==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta14==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta14==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta14==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta14==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta14==7)
+    {
+    Beep(988,1000);
+    }
+     //start 15 nuty...
+    if(nuta15==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta15==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta15==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta15==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta15==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta15==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta15==7)
+    {
+    Beep(988,1000);
+    }
+     //start 16 nuty...
+    if(nuta16==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta16==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta16==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta16==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta16==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta16==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta16==7)
+    {
+    Beep(988,1000);
+    }
+     //start 17 nuty...
+    if(nuta17==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta17==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta17==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta17==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta17==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta17==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta17==7)
+    {
+    Beep(988,1000);
+    }
+     //start 18 nuty...
+    if(nuta18==1)
+    {
+    Beep(523,1000);
+    }
+    if(nuta18==2)
+    {
+    Beep(587,1000);
+    }
+    if(nuta18==3)
+    {
+    Beep(659,1000);
+    }
+    if(nuta18==4)
+    {
+    Beep(698,1000);
+    }
+    if(nuta18==5)
+    {
+    Beep(784,1000);
+    }
+    if(nuta18==6)
+    {
+    Beep(880,1000);
+    }
+    if(nuta18==7)
+    {
+    Beep(988,1000);
+    }
 
 
 
